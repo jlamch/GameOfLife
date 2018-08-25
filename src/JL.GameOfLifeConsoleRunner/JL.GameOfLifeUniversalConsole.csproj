@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JL.GameOfLife.ConsoleDisplay\JL.GameOfLife.ConsoleDisplay.csproj" />
+    <ProjectReference Include="..\JL.GameOfLife.Core\JL.GameOfLife.Core.csproj" />
+  </ItemGroup>
+
+</Project>
